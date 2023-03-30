@@ -17,6 +17,9 @@ module.exports = {
         btnSolid: "#14253D",
         gray: "#666666",
       },
+      boxShadow: {
+        teamBox: " 0px 6px 30px rgba(0, 0, 0, 0.08)",
+      },
     },
   },
   plugins: [],

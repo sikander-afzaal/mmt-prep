@@ -1,5 +1,6 @@
 import About from "./About";
 import Hero from "./Hero";
+import Team from "./Team";
 import TestRow from "./TestRow";
 
 const Index = () => {
@@ -17,6 +18,7 @@ const Index = () => {
           imgs={["/about3.png", "/about3.png", "/about3.png"]}
         />
       </div>
+      <Team />
     </>
   );
 };
