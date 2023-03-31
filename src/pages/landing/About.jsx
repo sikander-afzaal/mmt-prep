@@ -3,10 +3,10 @@ const About = () => {
     <div className="wrapper mt-[60px] lg:mt-[150px]">
       <div className="contain flex-col justify-center items-center gap-8">
         <div className="text-center">
-          <h4 className="text-dark leading-[1.5] font-medium text-2xl">
+          <h4 className="text-dark leading-[1.5] font-medium text-lg sm:text-2xl">
             How are we
           </h4>
-          <h2 className="text-gunMetal text-[56px] leading-[1] mt-2 font-bold">
+          <h2 className="text-gunMetal text-[34px] sm:text-[40px] md:text-[56px] leading-[1] mt-2 font-bold">
             UNIQUE?
           </h2>
         </div>

@@ -11,11 +11,11 @@ const Team = () => {
     const paginationWidth = document
       .querySelector(".splide__pagination")
       .getBoundingClientRect().width;
-    arrowLeft.style.transform = `translateY(-20%) translateX(-${
-      paginationWidth / 2 + 30
+    arrowLeft.style.transform = `translateY(-19%) translateX(-${
+      paginationWidth / 2 + 20
     }px)`;
-    arrowRight.style.transform = `translateY(-20%) translateX(${
-      paginationWidth / 2 + 30
+    arrowRight.style.transform = `translateY(-19%) translateX(${
+      paginationWidth / 2 + 20
     }px)`;
   }, [windowWidth]);
 
@@ -31,7 +31,7 @@ const Team = () => {
   }, []);
 
   return (
-    <div className="team wrapper mt-[80px] lg:mt-[150px] ">
+    <div className="team wrapper mt-[100px] lg:mt-[150px] ">
       <div className="contain flex-col justify-center items-center text-center gap-2 sm:gap-8">
         <h2 className="text-[30px] md:text-[40px] sm:text-[56px] font-bold text-gunMetal">
           Our Team Leads

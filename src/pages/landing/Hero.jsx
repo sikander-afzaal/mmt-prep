@@ -1,6 +1,12 @@
 const Hero = () => {
   return (
-    <div className="pt-[90px] sm:pt-[100px] pb-[120px] lg:pt-[180px] wrapper">
+    <div className="pt-[150px] relative  sm:pt-[100px] pb-[120px] lg:pt-[180px] wrapper">
+      <div className="absolute -z-10 pointer-events-none w-full max-w-[750px] aspect-square rounded-full blur-[200px] bg-shadowBlue left-0 -translate-x-[20%] top-[12%]"></div>
+      <div className="absolute -z-10 pointer-events-none w-full max-w-[750px] aspect-square rounded-full blur-[200px] bg-shadowPurple right-0 translate-x-[50%] top-0 -translate-y-[50%]"></div>
+      <div className="absolute -z-10 pointer-events-none w-full max-w-[750px] aspect-square rounded-full blur-[200px] bg-shadowRedish right-[20%]  top-[5%] "></div>
+      <div className="absolute -z-10 pointer-events-none w-full max-w-[750px] aspect-square rounded-full blur-[200px] bg-shadowCyan right-0 translate-x-[20%] top-[12%]"></div>
+      <div className="absolute -z-10 pointer-events-none w-full max-w-[750px] aspect-square rounded-full blur-[200px] bg-shadowPinkish right-[20%] top-[0%] -translate-y-[60%]"></div>
+      <div className="absolute -z-10 pointer-events-none w-full max-w-[750px] aspect-square rounded-full blur-[200px] bg-shadowCyan left-0 top-[0%] -translate-y-[60%]"></div>
       <div className="contain flex-col text-center justify-center isolate items-center gap-5 relative">
         <img
           src="/hero-star.png"
