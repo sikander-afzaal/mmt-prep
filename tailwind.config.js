@@ -19,6 +19,7 @@ module.exports = {
       },
       boxShadow: {
         teamBox: " 0px 6px 30px rgba(0, 0, 0, 0.08)",
+        helpBox: " 0px 5px 30px rgba(0, 0, 0, 0.1)",
       },
     },
   },

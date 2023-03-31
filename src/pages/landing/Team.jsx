@@ -6,8 +6,8 @@ import TeamBox from "../../components/TeamBox";
 const Team = () => {
   const [windowWidth, setWindowWidth] = useState("");
   useEffect(() => {
-    const arrowLeft = document.querySelector(".splide__arrow--prev");
-    const arrowRight = document.querySelector(".splide__arrow--next");
+    const arrowLeft = document.querySelector(".team .splide__arrow--prev");
+    const arrowRight = document.querySelector(".team .splide__arrow--next");
     const paginationWidth = document
       .querySelector(".splide__pagination")
       .getBoundingClientRect().width;
@@ -31,7 +31,7 @@ const Team = () => {
   }, []);
 
   return (
-    <div className="wrapper mt-[80px] lg:mt-[150px] ">
+    <div className="team wrapper mt-[80px] lg:mt-[150px] ">
       <div className="contain flex-col justify-center items-center text-center gap-2 sm:gap-8">
         <h2 className="text-[30px] md:text-[40px] sm:text-[56px] font-bold text-gunMetal">
           Our Team Leads

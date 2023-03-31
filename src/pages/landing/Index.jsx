@@ -1,5 +1,8 @@
 import About from "./About";
+import Blogs from "./Blogs";
+import Help from "./Help";
 import Hero from "./Hero";
+import Newsletter from "./Newsletter";
 import Team from "./Team";
 import TestRow from "./TestRow";
 
@@ -19,6 +22,9 @@ const Index = () => {
         />
       </div>
       <Team />
+      <Help />
+      <Blogs />
+      <Newsletter />
     </>
   );
 };
